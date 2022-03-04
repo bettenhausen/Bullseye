@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("🎯🎯🎯\nPut the bullsye as close as you can to ")
+            Text("🎯🎯🎯\nPut the bullsye as close as you can to".uppercased())
                 .bold()
                 .kerning(2.0)
                 .multilineTextAlignment(.center)
@@ -32,12 +32,19 @@ struct ContentView: View {
                 Text("100")
                     .bold()
             }
+            .padding()
             Button(action: {
                 alertIsVisible = true
             
             }) {
-                Text("Hit me")
+                Text("Hit me".uppercased())
+                    .bold()
+                    .font(.title3)
             }
+            .padding(20.0)
+            .background(Color.blue)
+            .foregroundColor(Color.white)
+            .cornerRadius(21.0)
             .alert("Hello there!", isPresented: $alertIsVisible){
                 Button("Awesome!"){}
             } message: {
