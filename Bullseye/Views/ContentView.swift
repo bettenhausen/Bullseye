@@ -24,16 +24,22 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .lineSpacing(4.0)
                     .font(.footnote)
+                    .padding(.leading, 30.0)
+                    .padding(.trailing, 30.0)
+                    .foregroundColor(Color("TextColor"))
                 Text(String(game.target))
                     .font(.largeTitle)
                     .fontWeight(.black)
                     .kerning(-1.0)
+                    .foregroundColor(Color("TextColor"))
                 HStack {
                     Text("1")
                         .fontWeight(.bold)
+                        .foregroundColor(Color("TextColor"))
                     Slider(value: $sliderValue, in: 1.0...100.0)
                     Text("100")
                         .bold()
+                        .foregroundColor(Color("TextColor"))
                 }
                 .padding()
                 Button(action: {
