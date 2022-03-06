@@ -19,16 +19,8 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 InstructionsView(game: $game)
-                HStack {
-                    Text("1")
-                        .fontWeight(.bold)
-                        .foregroundColor(Color("TextColor"))
-                    Slider(value: $sliderValue, in: 1.0...100.0)
-                    Text("100")
-                        .bold()
-                        .foregroundColor(Color("TextColor"))
-                }
-                .padding()
+                SliderView(sliderValue: $sliderValue)
+                    .padding()
                 Button(action: {
                     alertIsVisible = true
                 }) {
@@ -62,6 +54,17 @@ struct InstructionsView: View {
                 .padding(.leading, 30.0)
                 .padding(.trailing, 30.0)
             BigNumberText(text: String(game.target))
+        }
+    }
+}
+
+struct SliderView: View {
+    @Binding var sliderValue: Double
+    var body: some View {
+        HStack {
+            SliderLabelTextView(text: "1")
+            Slider(value: $sliderValue, in: 1.0...100.0)
+            SliderLabelTextView(text: "100")
         }
     }
 }

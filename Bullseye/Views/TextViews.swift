@@ -33,11 +33,22 @@ struct BigNumberText: View {
     }
 }
 
+struct SliderLabelTextView: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .fontWeight(.bold)
+            .foregroundColor(Color("TextColor"))
+    }
+}
+
 struct TextViews_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
             InstructionsViews(text: "Instructions")
             BigNumberText(text: "999")
+            SliderLabelTextView(text: "1")
         }
     }
 }
