@@ -18,10 +18,12 @@ struct ContentView: View {
             BackgroundView(game: $game)
             VStack {
                 InstructionsView(game: $game)
-                SliderView(sliderValue: $sliderValue)
+                    .padding(.bottom, 100)
                 HitMeButtonView(alertIsVisible: $alertIsVisible, sliderValue: $sliderValue, game: $game)
             }
+            SliderView(sliderValue: $sliderValue)
         }
+        
     }
 }
 
@@ -56,7 +58,7 @@ struct HitMeButtonView: View {
     var body: some View {
         Button(action: {
             alertIsVisible = true
-           
+            
         }) {
             Text("Hit me".uppercased())
                 .bold()
