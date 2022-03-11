@@ -40,6 +40,19 @@ struct SliderLabelTextView: View {
         Text(text)
             .fontWeight(.bold)
             .foregroundColor(Color("TextColor"))
+            .frame(width: 35.0)
+    }
+}
+
+struct LabelText: View {
+    var title: String
+    
+    var body: some View {
+        Text(title)
+            .bold()
+            .font(.caption)
+            .foregroundColor(Color("TextColor"))
+            .kerning(1.5)
     }
 }
 
@@ -49,6 +62,7 @@ struct TextViews_Previews: PreviewProvider {
             InstructionsViews(text: "Instructions")
             BigNumberText(text: "999")
             SliderLabelTextView(text: "1")
+            LabelText(title: "SCORE")
         }
     }
 }
