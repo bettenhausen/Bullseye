@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6513DF7127DD527F0038B17E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513DF7027DD527F0038B17E /* Constants.swift */; };
 		6570414527DACB0B005415F2 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570414427DACB0B005415F2 /* RoundViews.swift */; };
 		6570414727DB9D32005415F2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570414627DB9D32005415F2 /* BackgroundView.swift */; };
 		65868F1927DD123200DBCBAF /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65868F1827DD123200DBCBAF /* PointsView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6513DF7027DD527F0038B17E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6570414427DACB0B005415F2 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		6570414627DB9D32005415F2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		65868F1827DD123200DBCBAF /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				65A9533327CECD9C006915DB /* Game.swift */,
+				6513DF7027DD527F0038B17E /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				6570414727DB9D32005415F2 /* BackgroundView.swift in Sources */,
 				6570414527DACB0B005415F2 /* RoundViews.swift in Sources */,
 				65A9532527CD95FA006915DB /* ContentView.swift in Sources */,
+				6513DF7127DD527F0038B17E /* Constants.swift in Sources */,
 				65A9534327D4FB51006915DB /* TextViews.swift in Sources */,
 				65868F1927DD123200DBCBAF /* PointsView.swift in Sources */,
 				65A9533427CECD9C006915DB /* Game.swift in Sources */,
