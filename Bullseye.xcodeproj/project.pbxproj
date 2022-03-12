@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6570414527DACB0B005415F2 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570414427DACB0B005415F2 /* RoundViews.swift */; };
 		6570414727DB9D32005415F2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570414627DB9D32005415F2 /* BackgroundView.swift */; };
+		65868F1927DD123200DBCBAF /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65868F1827DD123200DBCBAF /* PointsView.swift */; };
 		65A9532327CD95FA006915DB /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9532227CD95FA006915DB /* BullseyeApp.swift */; };
 		65A9532527CD95FA006915DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A9532427CD95FA006915DB /* ContentView.swift */; };
 		65A9532727CD95FB006915DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A9532627CD95FB006915DB /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		6570414427DACB0B005415F2 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		6570414627DB9D32005415F2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		65868F1827DD123200DBCBAF /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 		65A9531F27CD95FA006915DB /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A9532227CD95FA006915DB /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		65A9532427CD95FA006915DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				65A9534227D4FB51006915DB /* TextViews.swift */,
 				6570414427DACB0B005415F2 /* RoundViews.swift */,
 				6570414627DB9D32005415F2 /* BackgroundView.swift */,
+				65868F1827DD123200DBCBAF /* PointsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				6570414527DACB0B005415F2 /* RoundViews.swift in Sources */,
 				65A9532527CD95FA006915DB /* ContentView.swift in Sources */,
 				65A9534327D4FB51006915DB /* TextViews.swift in Sources */,
+				65868F1927DD123200DBCBAF /* PointsView.swift in Sources */,
 				65A9533427CECD9C006915DB /* Game.swift in Sources */,
 				65A9532327CD95FA006915DB /* BullseyeApp.swift in Sources */,
 			);

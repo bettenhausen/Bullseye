@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InstructionsViews: View {
+struct InstructionText: View {
     var text: String
     
     var body: some View {
@@ -56,13 +56,43 @@ struct LabelText: View {
     }
 }
 
+struct BodyText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundColor(Color("TextColor"))
+            .multilineTextAlignment(.center)
+            .lineSpacing(12.0)
+    }
+}
+
+struct ButtonText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .bold()
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.accentColor)
+            .foregroundColor(Color.white)
+            .cornerRadius(12.0)
+    }
+}
+
 struct TextViews_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            InstructionsViews(text: "Instructions")
+            InstructionText(text: "Instructions")
             BigNumberText(text: "999")
             SliderLabelTextView(text: "1")
             LabelText(title: "SCORE")
+            BodyText(text: "You scored 200 points\n🎉🎉🎉")
+            ButtonText(text: "Start New Round")
         }
+        .padding()
     }
 }
