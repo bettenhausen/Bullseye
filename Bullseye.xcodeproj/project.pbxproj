@@ -37,7 +37,7 @@
 		6570414427DACB0B005415F2 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		6570414627DB9D32005415F2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		65868F1827DD123200DBCBAF /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
-		65A9531F27CD95FA006915DB /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A9531F27CD95FA006915DB /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A9532227CD95FA006915DB /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		65A9532427CD95FA006915DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65A9532627CD95FB006915DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		65A9532027CD95FA006915DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65A9531F27CD95FA006915DB /* Bullseye.app */,
+				65A9531F27CD95FA006915DB /* Bull's Eye.app */,
 				65A9533927CEDED3006915DB /* BullseyeTests.xctest */,
 			);
 			name = Products;
@@ -159,7 +159,7 @@
 			);
 			name = Bullseye;
 			productName = Bullseye;
-			productReference = 65A9531F27CD95FA006915DB /* Bullseye.app */;
+			productReference = 65A9531F27CD95FA006915DB /* Bull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 		65A9533827CEDED3006915DB /* BullseyeTests */ = {
@@ -411,7 +411,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.bettenhausen.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,7 +440,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.bettenhausen.Bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
